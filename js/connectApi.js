@@ -2,7 +2,7 @@
 
 async function listProducts() {
     try {
-        const connection = await fetch("https://alurageek-json-server.vercel.app/produtos");
+        const connection = await fetch("https://alura-geek-api-tau.vercel.app/produtos");
         const convertedConnection = await connection.json();
         return convertedConnection;
     } catch (error) {
